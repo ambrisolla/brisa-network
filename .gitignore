@@ -1,0 +1,20 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.backup
+.terraform/
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local Terraform files (Terraform configuration files)
+.terraform.lock.hcl
+
+# Terragrunt files
+.terragrunt-cache/
+
+# Outros arquivos de configuração
+*tfplan
